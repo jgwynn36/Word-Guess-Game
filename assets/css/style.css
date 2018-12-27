@@ -1,3 +1,84 @@
 body {
+    background-image: url("../images/Nineties.png");
+    width: 100%;
+    overflow: visible;
+}
+
+header {
+    font-size: 80px;
+    color: orange; 
     background: black;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: 'Faster One', cursive;
+}
+
+@keyframes blink {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
   }
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    animation-name: blink;
+    animation-duration: 15s;
+    color: white; 
+}
+
+
+image {
+    margin: 10px;
+    margin-right: 10px; 
+}
+
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+/* span {
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: yellow; 
+    font-size: 15px;
+} */
+
+.background {
+    background-image: url("../images/features-90s-tv.jpg");
+}
+
+.container {
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white; 
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    animation-name: blink;
+    animation-duration: 15s;
+}
+
+#scoreboard {
+    padding: 20px;
+    color: white; 
+}

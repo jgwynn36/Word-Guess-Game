@@ -9,17 +9,105 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
 
 <body>
-    <h1>Favorite 90's Shows </h1>
+    <header>Guess that 90's TV Shows</header>
 
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img id="image" class="mx-auto d-block" src="assets/images/background.jpeg">
+            </div>
+        </div>
+    </div>
 
+    <div class="background">
+        <div class="container">
+            <h2>Press Any Key To Guess the TV show!</h2>
 
+            <div>
+                <h3 id="currentword">_ _ _ _ _</h3>
+            </div>
+
+            <div id="scoreboard">
+                <div class="sidebar">
+                    <h3>GUESSES LEFT:
+                        <span id="guessesremaining"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>WINS:
+                        <span id="winstracker"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>LOSSES:
+                        <span id="losstracker"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>LETTERS YOU GUESSED WRONG:
+                        <span id="playerguesses"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AUDIO FILES-->
+    <!-- <div>
+        <audio id="freinds">
+            <source src="./assets/audio/Friends.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="seinfeld">
+            <source src="./assets/audio/Seinfeld.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="simpsons">
+            <source src="./assets/audio/TheSimpsons.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="scoobydoo">
+            <source src="./assets/audio/ScoobyDoo.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="boymeetsworld">
+            <source src="./assets/audio/BoyMeetsWorld.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="freshprince">
+            <source src="./assets/audio/FreshPrince.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="rugrats">
+            <source src="./assets/audio/Rugrats.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="fullhouse">
+            <source src="./assets/audio/FullHouse.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="laworder">
+            <source src="./assets/audio/LawAndOrder.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="savedbybell">
+            <source src="./assets/audio/SavedbytheBell.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="cosby">
+            <source src="./assets/audio/TheCosbyShow.mp3" type="audio/mp3">
+        </audio> -->
+    </div>
 
 </body>
 
