@@ -28,19 +28,6 @@ function guessGame() {
     console.log(blanksAndCorrect)
 }
 
-// var friends = document.getElementById("friends");
-// var seinfield = document.getElementById("seinfeld");
-// var freshprince = document.getElementById("freshprince");
-// var simpsons = document.getElementById("simpsons");
-// var law = document.getElementById("laworder");
-// var fullhouse = document.getElementById("fullhouse");
-// var boymeets = document.getElementById("boymeetsworld");
-// var saved = document.getElementById("savedbybell");
-// var scooby = document.getElementById("scoobydoo");
-// var rugrats = document.getElementById("rugrats");
-// var cosby = document.getElementById("cosby");
-
-
 function img() {
     if (randomWord === words[0]) {
         document.getElementById("image").src = "assets/images/friends-films-photo-u17.jpg";
