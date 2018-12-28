@@ -92,6 +92,7 @@ function checkLetters(letter) {
     console.log(blanksAndCorrect);
 }
 
+
 function complete() {
     console.log("wins:" + wins + "| losses:" + losses + "| guesses left:" + guessesRemaining)
     if (lettersOfWord.toString() == blanksAndCorrect.toString()) {

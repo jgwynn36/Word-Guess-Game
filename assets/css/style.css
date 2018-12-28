@@ -9,19 +9,24 @@ header {
     color: orange; 
     background: black;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right:10%;
     padding: 15px;
     font-family: 'Faster One', cursive;
+    animation-name: blink;
+    animation-duration: 45s; 
+    animation-iteration-count: infinite;
+    position: relative; 
+    text-shadow: 3px 2px white; 
 }
 
 @keyframes blink {
-    0%   {color:red;}
-    25%  {color:yellow;}
-    50%  {color:blue;}
-    75%  {color:green;}
-    100% {color:red;}
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
   }
 
 h2 {
@@ -29,16 +34,10 @@ h2 {
     font-size: 20px;
     padding-top: 10px;
     animation-name: blink;
-    animation-duration: 15s;
+    animation-duration: 30s;
     color: white; 
+    overflow: visible; 
 }
-
-
-image {
-    margin: 10px;
-    margin-right: 10px; 
-}
-
 
 .sidebar {
     padding: 5px;
@@ -54,21 +53,19 @@ image {
 
 .container {
     background-color: black;
-    margin-top: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5px;
     text-align: center;
     color: white; 
+    overflow: visible;
 }
 
 #currentword {
     font-size: 30px;
     font-family: 'Press Start 2P', cursive;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     animation-name: blink;
     animation-duration: 15s;
+    overflow: visible; 
 }
 
 #scoreboard {
